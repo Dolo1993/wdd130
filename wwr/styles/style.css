@@ -1,0 +1,49 @@
+div{
+    max-width: 1600px; 
+    margin: 0,auto;
+} 
+nav, a{
+    text-align: center; 
+    color: aliceblue; 
+    text-decoration: none;
+}  
+h1{
+    text-align: center;  
+    color: white;
+}  
+h4{
+    text-align: center; 
+    color: white;
+}  
+div, a{
+    text-align: center;
+} 
+div a:hover{
+    background-color: rgb(39, 38, 31);
+}
+main section{
+    text-align: center; 
+    color: white;
+}
+background{
+    height: 725px;
+} 
+body{
+    background-color: steelblue;
+} 
+header{
+    background-color: gray; 
+    text-align: left;
+} 
+nav a:hover{
+    background-color: blueviolet;
+} 
+.icon{
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p{ 
+    text-decoration: underline;
+}
