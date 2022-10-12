@@ -1,22 +1,30 @@
 div{
     max-width: 1600px; 
-    margin: 0,auto;
+    margin: 0 auto;
 } 
-nav, a{
+nav, a{ 
     text-align: center; 
     color: aliceblue; 
-    text-decoration: none;
+    text-decoration: none; 
+    font-size: 1em;  
+    padding: 35px;
+    
 }  
 h1{
     text-align: center;  
     color: white;
+}  
+h2{ 
+    text-align: center; 
+    margin: 0;
 }  
 h4{
     text-align: center; 
     color: white;
 }  
 div, a{
-    text-align: center;
+    text-align: center; 
+    padding: 15px 30px
 } 
 div a:hover{
     background-color: rgb(39, 38, 31);
@@ -29,21 +37,28 @@ background{
     height: 725px;
 } 
 body{
-    background-color: steelblue;
+    background-color: steelblue; 
+    font-size: 22px; 
+    margin: 0; 
+    padding: 0;
 } 
-header{
+header, logo{
     background-color: gray; 
-    text-align: left;
+    text-align: left; 
+    padding: 5px;
 } 
 nav a:hover{
     background-color: blueviolet;
 } 
-.icon{
-    width: 80px;
+.icon{ 
+    margin: left;
+    width: 80px; 
+} 
+section p{
+    font-size: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 1.2em; 
+    text-decoration: none;
 } 
-footer p{ 
-    text-decoration: underline;
-}
