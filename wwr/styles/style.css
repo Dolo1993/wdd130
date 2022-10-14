@@ -1,64 +1,111 @@
-div{
-    max-width: 1600px; 
+
+div{ 
     margin: 0 auto;
-} 
-nav, a{ 
-    text-align: center; 
-    color: aliceblue; 
-    text-decoration: none; 
-    font-size: 1em;  
-    padding: 35px;
-    
+    max-width: 1600px;   
 }  
-h1{
+div, img{  
+    line-height: 1.5em; 
     text-align: center;  
+}
+.join{  
+    border-radius: 5px; 
+    color: white; 
+    font-size: 2em; 
+    margin-top: 50px;
+    padding: 15px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+     
+}
+nav, a{  
     color: white;
-}  
-h2{ 
+    padding: 35px;
     text-align: center; 
-    margin: 0;
+    text-decoration: none; 
+      
 }  
-h4{
-    text-align: center; 
+.home-title,a{ 
     color: white;
-}  
-div, a{
-    text-align: center; 
-    padding: 15px 30px
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em; 
+    margin: 10px; 
+}
+h1{ 
+    text-align: center;
+}
+h4{ 
+    text-align: center;
 } 
-div a:hover{
-    background-color: rgb(39, 38, 31);
-}
-main section{
+.button-box a{ 
+    border-radius: 5px; 
+    font-size: 100;  
+    margin: 50px;
+    padding: 15px 30px;
     text-align: center; 
-    color: white;
-}
-background{
+    text-decoration: none    
+} 
+main section{ 
+      text-align: center;    
+} 
+background{ 
     height: 725px;
 } 
 body{
     background-color: steelblue; 
+    font-family: RocknRoll O, Helvetica, sans-serif; 
     font-size: 22px; 
-    margin: 0; 
+    margin: 0;
     padding: 0;
 } 
-header, logo{
+header{  
     background-color: gray; 
-    text-align: left; 
-    padding: 5px;
+    padding-top: 5px; 
+    text-align: left;
+      
 } 
 nav a:hover{
+    background-color: rgb(23, 25, 27); 
+} 
+.book:hover{
+    background-color: rgb(63, 40, 63);  
+} 
+.join:hover{
     background-color: blueviolet;
 } 
-.icon{ 
-    margin: left;
-    width: 80px; 
+section p {
+    font-size: .8em;  
+    padding-bottom: 15px;
 } 
-section p{
-    font-size: 20px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+footer, p{ 
+    color: beige;  
+    text-align: center;
 }
-footer p {
+footer{    
+    background-color: black;
     font-size: 1.2em; 
-    text-decoration: none;
+    margin-top: 200px;
+    padding: 25px 50px; 
+     
+}  
+footer .social img{
+    padding-top: 15px;
+}
+footer p a:hover{
+    background-color: rgb(71, 71, 55);
+}
+.icon{
+    padding-top: 10px; 
+    width: 80px;
+}
+.river-card{
+    margin: 200px 0;
+}
+.camping-card{ 
+    margin: 200px 0;
+}
+rapids-card{ 
+    margin: 200px 0;
 } 
+.card-img{
+    border: 10px solid black;
+}  
