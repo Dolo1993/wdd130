@@ -1,3 +1,6 @@
+div{
+    max-width: 1600px;
+} 
 nav a {
     text-align: center;
     color: #fcfbfb;
@@ -219,8 +222,51 @@ footer .social img {
 
  .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
- }   
+    grid-template-columns: 10fr; 
+ }    
+h6{  
+    color: white; 
+    font-size: .9em; 
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 40px; 
+    margin-right: 40px; 
+    margin-top: 600px; 
+    margin-bottom: 150px;  
+} 
+h5{ 
+    color: gold;   
+    font-size: 30px; 
+    font-family: cursive; 
+    text-align: center; 
+    margin-top: -500px; 
+
+} 
+
+.water-img{
+    border: 10px solid #d9c2a3;
+    transform: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+    height: 450px;
+    width: 450px;  
+    margin-left: 50px;
+     
+} 
+.children-img{
+    border: 10px solid #d9c2a3;
+    transform: transform .5s;
+    box-shadow: 5px 5px 10px #6f73; 
+    height: 450px;
+    width: 450px;   
+    margin-left: 60px;
+     
+    
+} 
+.faq-grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-items: center; 
+    grid-gap: 20px
+} 
  @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
