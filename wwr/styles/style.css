@@ -264,7 +264,10 @@ h5{
 .faq-grid{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
+    justify-content: center;
+    align-content: center; 
     justify-items: center; 
+    align-items: center;
     grid-gap: 20px
 } 
  @media screen and (max-width: 900px) {
