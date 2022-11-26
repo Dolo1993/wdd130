@@ -1,0 +1,216 @@
+
+#content{
+    max-width: 1600px;
+}
+nav  { 
+    background-color: antiquewhite; 
+    text-align: center; 
+    margin-top: -150px; 
+    padding-top: 50px; 
+    padding-bottom: 40px;
+} 
+.logo{
+    width: 100px;
+    height: 100px; 
+    padding-left: 30px; 
+    padding-bottom: 35px; 
+    padding-top: 10px;
+} 
+nav a{ 
+    color: #A43312;
+    padding: 10px;  
+    padding-left: 80px;
+    text-decoration: none; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 1.5em; 
+}   
+nav a:hover{
+    color: green;
+}
+body{
+    margin: 0 auto; 
+}
+#homepic3-img{
+    display: inline; 
+    width: 400px; 
+    height: 400px;
+    padding: 10px; 
+    margin-top: 200px;
+    border: 1px solid blue; 
+    background-color: yellow; 
+    float: right; 
+    border: 10px solid #d9c2a3;
+    transform: transform .5s; 
+    box-shadow: 5px 5px 10px #6f7364; 
+} 
+#homepic3-img:hover{
+  opacity: .6;
+  transform: scale(1.1);
+}
+#homepic2-img{
+    display: inline; 
+    width: 400px; 
+    height: 400px;
+    padding: 10px; 
+    margin-top: 150px;
+    border: 1px solid blue; 
+    background-color: yellow; 
+    float: inline-start; 
+    border: 10px solid #d9c2a3;
+    transform: transform .5s; 
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#homepic2-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+  }
+section p{  
+    background-color: blue; 
+    color: white;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 500px; 
+    margin-top: 400px;
+    width: 500px;
+    height: 200px;  
+    overflow: scroll; 
+    font-size: 1.5em;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    line-height: 1.5; 
+    word-spacing: 2.5px;
+} 
+.page3pic-title{  
+    color: blue; 
+    text-align: center; 
+    padding-left: 400px; 
+    margin-top: -300px;
+    border-style: double;
+} 
+.button-box{
+    text-align: center; 
+    font-size: 2em; 
+    margin-top: -900px; 
+    margin-bottom: 500px;
+} 
+.discuss{ 
+    background-color: antiquewhite;
+    color: darkred;  
+    text-decoration: none;  
+    font-size: 20px;  
+    padding: 15px 30px;  
+    border-style: dashed;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px rgb(61, 61, 206);
+}  
+.discuss:hover{
+    background-color: aqua;  
+} 
+ 
+.join{
+    text-align: center;   
+    margin-left: 90px;  
+    background-color: antiquewhite;
+    color: darkred;  
+    text-decoration: none;  
+    font-size: 20px;  
+    padding: 15px 30px;  
+    border-style: dashed;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px rgb(61, 61, 206);
+} 
+.join:hover{
+    background-color: aqua; 
+}
+.page3-img{
+    width: 100%; 
+}
+section h2{  
+    color: gold;
+    margin-top: -80px;
+    text-align: center;  
+    font-size: 2em;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color:rgba(20,30,13, .7);
+    color: white;
+    margin-top: 200px; 
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white; 
+    text-decoration: none;
+    padding: 25px 0px;
+}
+footer a:hover {
+    color: greenyellow;
+}  
+
+footer p {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p a:hover {
+    text-decoration: none
+}
+footer .social img {
+    padding-top: 15px; 
+} 
+@media screen and (max-width: 900px) {
+
+    .page3pic, .page3-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .page3pic {
+        margin-top: 0;
+    }
+    .page3pic-msg {
+        margin-top: 0;
+    }
+    #page3pic-msg h4 {
+        display: none;
+    }
+    .page2pic-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    
+    #background {
+        display: none;
+    }
+    .page3pic, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px; 
+    }
+}
+
+
+
+
+  
