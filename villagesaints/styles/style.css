@@ -43,7 +43,7 @@ body{
 .homepic-text { 
   text-align: center; 
   font-size: 15px;  
-  margin-top: -550px;
+  margin-top: -650px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -89,8 +89,8 @@ body{
   } 
  p{
     margin-top: -50; 
-    font-size: 20px; 
-    color: white;
+    font-size: 25px; 
+    color: gold;
 } 
 .column:hover{
     opacity: .6;
