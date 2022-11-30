@@ -43,7 +43,7 @@ body{
 .homepic-text { 
   text-align: center; 
   font-size: 15px;  
-  margin-top: -70px;
+  margin-top: -800px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,11 +87,7 @@ body{
     transform: transform .5s;
     box-shadow: 5px 5px 10px #6f7364; 
   } 
- p{
-    /* margin-bottom: -700;  */
-    font-size: 20px; 
-    color: gold;
-} 
+
 .column:hover{
     opacity: .6;
     transform: scale(1.1); 
@@ -104,7 +100,8 @@ section h6{
     font-size: 1.5em;  
     font-family: 'Rock Salt', 'Times New Roman', Times, serif;
     line-height: 1.5;
-    margin-top: 100px; 
+    margin-top: 200px;   
+    margin-bottom: 300px;
     padding-left: 40px;
     padding-right: 40px;
 }
