@@ -25,10 +25,6 @@ nav a{
 }   
 nav a:hover{
     color: green;
-}
-#homepic-img{ 
-    padding-top: auto;
-    width: 100%;
 } 
 body{
     margin: 0 auto;
@@ -76,37 +72,30 @@ body{
     color: blue; 
 } 
 section p{ 
-    text-indent: 50px; 
-    letter-spacing: -px; 
-    line-height: 1.5; 
-    margin-top: 300px;  
-    padding-left: 70px;  
-    padding-right:60px ; 
+    background-color: blue;  
+    color: white; 
     font-size: 1.5em;  
-    border-style: dotted;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(105, 28, 181);
+    font-family: 'Rock Salt', 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-top: 400px;   
+    margin-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 40px;
 } 
 .page2-img{  
-    width: 50%; 
-    margin-top: 100px; 
+    width: 100%; 
+    margin-top: 60px; 
     margin-bottom: 300px;  
-    margin-left: 40px;
-    margin: left;
     border: 10px solid #d9c2a3;
     transform: transform .5s;
     box-shadow: 5px 5px 10px #6f7364; 
 }  
-.page2-img:hover{
-    opacity: .6;
-    transform: scale(1.1);
-} 
-h2{
+h2{ 
+    text-align: center;
     color: orange;    
-    margin-top: -390px; 
-    margin-bottom: 200px; 
-    padding-left: 40px; 
-    font-family: cursive;  
+    margin-top: -600px; 
+    margin-bottom: 600px;  
+    font-family: 'Courier New', Courier, monospace;  
 
 }
 footer {
