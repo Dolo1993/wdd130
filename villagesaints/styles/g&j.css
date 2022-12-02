@@ -84,14 +84,13 @@ body{
     margin-top: -200px;
     color: blue; 
 } 
-h6{ 
+section p{ 
     background-color: blue;  
     color: white; 
     text-align: justify; 
     font-size: 1.5em;  
     font-family: 'Rock Salt', 'Times New Roman', Times, serif;
-    line-height: 1.5;  
-    word-spacing: 3px;
+    /* line-height: 1.5;   */
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 200px;   
@@ -159,7 +158,7 @@ footer .social img {
     .page2pic-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #hero-msg h2 {
         display: none;
     }
     .page2pic-title {
