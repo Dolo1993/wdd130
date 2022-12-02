@@ -28,67 +28,72 @@ nav a:hover{
 } 
 body{
     margin: 0 auto;
-} 
-#page2pic{
-    display: grid;
-    justify-content: center;
-    justify-items: center; 
-    margin-top: 100px;
-    grid-template-columns: 1fr 2fr 1fr 2fr, 
+}  
+#page2pic2-img{ 
+    border: 1px solid #ddd;
+        border-radius: 4px; 
+        float: left;
+        width: 33.33%;   /* Specifies 3 columns in each row */
+        padding: 5px; 
+        margin-left: 60px; 
+        margin-top: 400px;
+        box-sizing: border-box; 
+        border: 10px solid #d9c2a3;
+        transform: transform .5s; 
+        box-shadow: 5px 5px 10px #6f7364;
+    
+}  
+#page2pic2-img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); 
     
 }
-#page2pic2-img{
-    width: 400px; 
-    height: 400px;  
-    margin-left: 100px; 
-    border: 10px solid #d9c2a3;
-    transform: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364; 
+#page2pic3-img{ 
+        border: 1px solid #ddd;
+        border-radius: 4px;  
+        border-radius: 4px;  
+        float: right;
+        width: 33.33%;   /* Specifies 3 columns in each row */
+        padding: 5px; 
+        margin-right: 60px; 
+        margin-top: 400px;
+        box-sizing: border-box; 
+        border: 10px solid #d9c2a3;
+        transform: transform .5s; 
+        box-shadow: 5px 5px 10px #6f7364;
     
-} 
-#page2pic3-img{
-    width: 400px; 
-    height: 400px; 
-    margin-left: 100px;  
-    border: 10px solid #d9c2a3;
-    transform: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364; 
-}  
+        
+         
 
-#page2pic2-img:hover{
-    opacity: .6;
-    transform: scale(1.1);
-} 
-#page2pic3-img:hover{
-    opacity: .6;
-    transform: scale(1.1);
-} 
+
+}
+    
+#page2pic3-img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 .page2pic-title{     
-    font-family: cursive;
-    border-style: outset;  
+    font-family: cursive;  
     width: 450px; 
-    margin-left: 100px; 
+    margin-left: 30px;  
     margin-top: -200px;
     color: blue; 
 } 
-section p{ 
+h6{ 
     background-color: blue;  
     color: white; 
+    text-align: justify; 
     font-size: 1.5em;  
     font-family: 'Rock Salt', 'Times New Roman', Times, serif;
-    line-height: 1.5;
-    margin-top: 400px;   
-    margin-bottom: 300px;
-    padding-left: 50px;
-    padding-right: 40px;
+    line-height: 1.5; 
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 300px;   
+    margin-bottom: 300px
 } 
 .page2-img{  
     width: 100%; 
-    margin-top: 60px; 
-    margin-bottom: 300px;  
-    border: 10px solid #d9c2a3;
-    transform: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364; 
+    margin-top: 20px; 
+    margin-bottom: 200px;  
 }  
 h2{ 
     text-align: center;
