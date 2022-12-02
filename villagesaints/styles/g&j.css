@@ -77,10 +77,11 @@ body{
 
 .page2pic-title{     
     font-family: cursive;  
-    width: 450px; 
+    width: 200px;  
+    margin-left: 60px;
     font-size: 20px;  
     border-style: ridge;
-    margin-top: -150px;
+    margin-top: -200px;
     color: blue; 
 } 
 h6{ 
