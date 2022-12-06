@@ -75,7 +75,8 @@ h1{
     font-size: 20px; 
     font-family: 'Roboto', sans-serif; 
     line-height: 1.5;
-    padding-top: 150px; 
+    padding-top: 150px;  
+    padding-bottom: 10px;
     padding-left: 10px; 
 }   
 h2{ 
@@ -86,7 +87,7 @@ h2{
     margin-bottom: 500px;
 } 
 .page3-img{ 
-    width: 80%; 
+    width: 100%; 
     height: 500px;
     margin-top: 200px;    
 }
