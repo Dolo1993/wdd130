@@ -34,8 +34,8 @@ body{
  
 #homepic3-img{ 
     display: block; 
-    width: 300px;
-    height: 300px;  
+    width: 350px;
+    height: 350px;  
     float: right;  
     margin-right: 10px;
     margin-top: 150px;
@@ -47,8 +47,8 @@ body{
 } 
 #homepic2-img{  
     display: block; 
-    width: 300px;
-    height: 300px;  
+    width: 350px;
+    height: 350px;  
     margin-right: 10px; 
     margin-left: 5px;
     margin-top: 150px;
@@ -79,22 +79,22 @@ h1{
     padding-left: 10px; 
 }   
 h2{ 
-    color: white;
+    color: mediumspringgreen;
     font-size: 30px;
     margin-left: 45px; 
     margin-top: -200px;  
     margin-bottom: 300px;
-    padding-right: 180px;
 } 
 .page3-img{ 
-    width: 60%;
+    width: 90%; 
+    height: 500px;
     margin-top: 200px;   
    margin-left: 40px;
 }
 .discuss{    
     display: block; 
     text-decoration: none;
-    color: mediumspringgreen;     
+    color: yellow;     
     opacity: .6;
     font-size: 2em; 
     font-family: 'Times New Roman', Times, serif;
@@ -102,7 +102,7 @@ h2{
     margin-left: 100px; 
 } 
 .discuss:hover {
-    color: yellow;
+    color: mediumspringgreen;;
 }
 
 
