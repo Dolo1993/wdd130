@@ -32,9 +32,10 @@ body{
 }
  
  
-#homepic3-img{
-    float: right; 
-    margin: 30px; 
+#homepic3-img{ 
+    display: block;
+    float: right;  
+    margin-right: 30px;
     margin-top: 150px;
     box-sizing: border-box;    
     border: 10px solid #d9c2a3;
@@ -42,8 +43,9 @@ body{
     box-shadow: 5px 5px 10px #6f7364;
     
 } 
-#homepic2-img{ 
-    margin: 30px; 
+#homepic2-img{  
+    display: block;  
+    margin-left: 30px;
     margin-top: 150px;
     float: left;   
     box-sizing: border-box;    
