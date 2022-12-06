@@ -30,115 +30,73 @@ nav a:hover{
 body{
     margin: 0 auto; 
 }
+ 
+ 
 #homepic3-img{
-    display: inline; 
-    width: 400px; 
-    height: 400px;
-    padding: 10px; 
-    margin-top: 200px;
-    border: 1px solid blue; 
-    background-color: yellow; 
     float: right; 
-    border: 10px solid #d9c2a3;
-    transform: transform .5s; 
-    box-shadow: 5px 5px 10px #6f7364; 
-} 
-#homepic3-img:hover{
-  opacity: .6;
-  transform: scale(1.1);
-}
-#homepic2-img{
-    display: inline; 
-    width: 400px; 
-    height: 400px;
-    padding: 10px; 
+    margin: 30px; 
     margin-top: 150px;
-    border: 1px solid blue; 
-    background-color: yellow; 
-    float: inline-start; 
+    box-sizing: border-box;    
     border: 10px solid #d9c2a3;
     transform: transform .5s; 
     box-shadow: 5px 5px 10px #6f7364;
-}
-#homepic2-img:hover{
+    
+} 
+#homepic2-img{ 
+    margin: 30px; 
+    margin-top: 150px;
+    float: left;   
+    box-sizing: border-box;    
+    border: 10px solid #d9c2a3;
+    transform: transform .5s; 
+    box-shadow: 5px 5px 10px #6f7364;     
+}   
+#homepic2-img:hover{ 
+    box-shadow: 0 0 2px 10px rgba(0, 140, 186, 0.5);  
     opacity: .6;
     transform: scale(1.1);
-  }
-section p{  
-    background-color: blue; 
+} 
+#homepic3-img:hover{ 
+    box-shadow: 0 0 2px 10px rgba(0, 140, 186, 0.5);  
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+h1{ 
+    background-color: blue;
+    color: white;   
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.5;
+    padding-top: 150px; 
+    padding-left: 10px; 
+}   
+h2{ 
     color: white;
+    font-size: 30px;
+    margin-left: 45px; 
+    margin-top: -200px;  
+    margin-bottom: 300px;
+    padding-right: 180px;
+} 
+.page3-img{ 
+    width: 60%;
+    margin-top: 200px;   
+   margin-left: 40px;
+}
+.discuss{    
     display: block; 
-    margin-left: auto;
-    margin-right: auto; 
-    margin-bottom: 500px; 
-    margin-top: 400px;
-    width: 500px;
-    height: 200px;  
-    overflow: scroll; 
-    font-size: 1.5em;  
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    line-height: 1.5; 
-    word-spacing: 2.5px;
-} 
-.page3pic-title{  
-    color: blue; 
-    text-align: center; 
-    padding-left: 400px; 
-    margin-top: -300px;
-    border-style: double;
-} 
-.button-box{
-    text-align: center; 
+    text-decoration: none;
+    color: mediumspringgreen;     
+    opacity: .6;
     font-size: 2em; 
-    margin-top: -900px; 
-    margin-bottom: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -50px;
+    margin-left: 100px; 
 } 
-.discuss{ 
-    background-color: antiquewhite;
-    color: darkred;  
-    text-decoration: none;  
-    font-size: 20px;  
-    padding: 15px 30px;   
-    border-style: dashed;
-    border-radius: 10px; 
-    box-shadow: 5px 5px 5px rgb(61, 61, 206);
-}  
-.discuss:hover{
-    background-color: aqua;  
-} 
- 
-.join{
-    text-align: center;   
-    margin-left: 90px;  
-    background-color: antiquewhite;
-    color: darkred;  
-    text-decoration: none;  
-    font-size: 20px;  
-    padding: 15px 30px;  
-    border-style: dashed;
-    border-radius: 10px; 
-    box-shadow: 5px 5px 5px rgb(61, 61, 206);
-} 
-.join:hover{
-    background-color: aqua; 
+.discuss:hover {
+    color: yellow;
 }
-.page3-img{
-    width: 100%;  
-    margin-bottom: 100px;
-}
-section h2{  
-    color: gold;
-    margin-top: -200px; 
-    margin-bottom: 300px; 
-    text-align: center;  
-    font-size: 2em;
-    font-family: cursive;
-}
-
-
-
-
-
 
 
 
