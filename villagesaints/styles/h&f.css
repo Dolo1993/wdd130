@@ -30,12 +30,14 @@ nav a:hover{
 body{
     margin: 0 auto; 
 }
- 
+
  
 #homepic3-img{ 
-    display: block;
+    display: block; 
+    width: 400px;
+    height: 400px;  
     float: right;  
-    margin-right: 30px;
+    margin-right: 50px;
     margin-top: 150px;
     box-sizing: border-box;    
     border: 10px solid #d9c2a3;
@@ -44,10 +46,13 @@ body{
     
 } 
 #homepic2-img{  
-    display: block;  
-    margin-left: 30px;
+    display: block; 
+    width: 400px;
+    height: 400px;  
+    margin-right: 50px; 
+    margin-left: 5px;
     margin-top: 150px;
-    float: left;   
+    float: right;   
     box-sizing: border-box;    
     border: 10px solid #d9c2a3;
     transform: transform .5s; 
