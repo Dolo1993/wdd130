@@ -82,7 +82,8 @@ h4{
 .container1 {
     position: relative; 
     float: right;   
-    margin-bottom: 50px; 
+    margin-bottom: 50px;  
+    margin: 50px;
   }
   
   /* Bottom right text */
@@ -99,7 +100,8 @@ h4{
 .container2 { 
     width: 200px;
     position: relative; 
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
+    margin: 40px;
   }
   
   /* Bottom right text */
