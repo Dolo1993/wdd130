@@ -55,7 +55,13 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -700px; 
     margin-bottom: 300px; 
-}  
+}   
+h2{
+    color: yellow; 
+    margin-top: -150px; 
+    margin-left: 30px;
+}
+
 .homepic-text{
     margin-top: -150px;
 }
@@ -74,39 +80,41 @@ h4{
     background-color: blueviolet;
       color: white;
 } 
-#homepic3{
-    float: left; 
-    width: 400px;
-    height: 400px;  
-    margin: 30px;
-    
-}   
-.home-grid{ 
-    display: block;
-    margin-top: 200px;
+ 
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+.column:hover{
+    opacity: .6;
+    transform: scale(1.1); 
 }
-h3{ 
- color: #A43312; 
- padding-bottom: -300px;
-}
-
-#page3pic2{  
-    margin: 50px; 
-    width: 400px;
-    height: 400px;
-    float: right; 
-
-}  
-
-
-
 /* beginning of the profile card */
   .card {  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 50%; 
     margin: auto;  
-    margin-top: 700px;
-    margin-bottom: 300px;
+    margin-top: 200px;
+    margin-bottom: 100px;
     text-align: center;
   }
   a {
