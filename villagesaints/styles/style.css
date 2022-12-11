@@ -44,8 +44,7 @@ h6{
     font-size: 1.5em;  
     line-height: 1.5; 
     padding-left: 5px; 
-    padding-right: 10px; 
-    margin-bottom: 200px;
+    padding-right: 10px;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -75,44 +74,55 @@ h4{
     background-color: blueviolet;
       color: white;
 } 
+#homepic3{
+    float: left; 
+    width: 400px;
+    height: 400px;  
+    margin: 30px;
+    
+}   
+.home-grid{ 
+    display: block;
+    margin-top: 200px;
+}
+h3{ 
+ color: #A43312; 
+ padding-bottom: -300px;
+}
+
+#page3pic2{  
+    margin: 50px; 
+    width: 400px;
+    height: 400px;
+    float: right; 
+
+}  
+
+
+
+/* beginning of the profile card */
+  .card {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50%; 
+    margin: auto;  
+    margin-top: 700px;
+    margin-bottom: 300px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  } 
+  .card :hover{
+    opacity: .6;
+    transform: scale(1.1); 
+}
+
+/* end of the profile card */
+   
  
 
-
-/* Container holding the image and the text */
-.container1 { 
-    display: block;     
-    float: right; 
-    margin-bottom: 50px;  
-    margin: 30px;
-  }
-  
-  /* Bottom right text */
-  .text-block {
-    position: absolute; 
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  } 
-  /* Container holding the image and the text */
-.container2 { 
-    position: relative;   
-    margin-bottom: 50px; 
-    margin: 50px;
-  }
-  
-  /* Bottom right text */
-  .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px; 
-    padding-right: 20px;
-  }
  
 footer {
     background-color:rgba(20,30,13, .7);
