@@ -54,7 +54,7 @@ h4{
     text-align: center; 
     font-size: 30px; 
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -600px; 
+    margin-top: -700px; 
     margin-bottom: 300px; 
 }  
 .homepic-text{
@@ -96,7 +96,8 @@ h4{
     padding-right: 20px;
   } 
   /* Container holding the image and the text */
-.container2 {
+.container2 { 
+    width: 200px;
     position: relative; 
     margin-bottom: 50px;
   }
