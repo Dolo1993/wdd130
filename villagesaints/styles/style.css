@@ -83,7 +83,7 @@ h4{
     position: relative; 
     float: right;   
     margin-bottom: 50px;  
-    margin: 50px;
+    margin: 10px;
   }
   
   /* Bottom right text */
@@ -98,10 +98,9 @@ h4{
   } 
   /* Container holding the image and the text */
 .container2 { 
-    width: 200px;
-    position: relative; 
+    position: relative;  
     margin-bottom: 50px; 
-    margin: 40px;
+    margin: 10px;
   }
   
   /* Bottom right text */
