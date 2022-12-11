@@ -75,12 +75,10 @@ body{
         transform: scale(1.1);
 }
 
-.page2pic-title{     
-    font-family: cursive;  
-    width: 200px;  
-    margin-left: 60px;
+h1{     
+    text-align: center;  
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;  
-    border-style: ridge;
     margin-top: -200px;
     color: blue; 
 }  
